@@ -55,5 +55,5 @@ export default async function handler(req, res) {
   }
 
   // Always redirect (success or failure)
-  return res.redirect(302, "https://in-to-use-in000.vercel.app/");
+  return res.redirect(302, "https://in-complete-pass.vercel.app/");
 }
